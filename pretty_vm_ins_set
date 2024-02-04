@@ -1,0 +1,50 @@
+PUSH
+
+	PUSH 10
+	PUSH 100
+	PUSH 256
+
+----------------
+
+POP
+
+	POP
+
+----------------
+
+ADD
+
+	ADD GRA, GRB ; adds value from GRB to value in GRA
+	ADD GRC, GRD ; adds value in GRD to value in GRC
+
+----------------
+
+SUB
+
+	SUB GRB, GRF ; substracts value in GRF from GRB
+
+-----------------
+
+MUL
+
+	MUL GRA, GRC ; multiplies GRC value with value in GRA, stores to GRA
+
+----------------
+
+DIV
+
+	DIV GRA, GRB ; divides value in GRA by value in GRB, stores in GRA
+
+------------------
+
+JUMP
+	
+	JUMP 0x12345 ; jumps to memory address 0x12345
+
+-----------------
+
+MOVE
+
+	MOVE GRA, GRD ; moves value from register GRD to register GRA
+
+----------------
