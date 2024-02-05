@@ -53,6 +53,8 @@ typedef enum {
 void ins_stack_push(int32_t value);
 void ins_add(Reg dest, Reg src);
 void ins_sub(Reg dest, Reg src);
+void ins_mul(Reg dest, Reg src);
+void ins_div(Reg dest, Reg src);
 void ins_stack_pop();
 
 #endif // AVM_H

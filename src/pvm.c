@@ -31,3 +31,13 @@ void ins_sub(Reg dest, Reg src)
 {
 	regs[dest] -= regs[src];
 }
+
+void ins_mul(Reg dest, Reg src)
+{
+	regs[dest] *= regs[src];
+}
+
+void ins_div(Reg dest, Reg src)
+{
+	regs[dest] /= regs[src];
+}
