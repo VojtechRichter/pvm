@@ -44,14 +44,15 @@ typedef enum {
 	GRD,
 	GRE,
 	GRF,
-
 	IP,
 	SP
 } Reg;
 
-#define REGISTER_COUNT 6
+#define REGISTER_COUNT 8
 
 void ins_stack_push(int32_t value);
+void ins_add(Reg dest, Reg src);
+void ins_sub(Reg dest, Reg src);
 void ins_stack_pop();
 
 #endif // AVM_H

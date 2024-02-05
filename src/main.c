@@ -1,8 +1,9 @@
 #include "pvm.h"
 
+extern int8_t regs[];
+
 int main(void)
 {
-	printf("ahoj\n");
 
 	return 0;
 }
